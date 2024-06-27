@@ -5,16 +5,17 @@
     box-sizing: border-box;
 }
 body{
-    background-color: aliceblue;
+    background-color: rgb(12, 13, 14);
 }
 .card{
     padding: 40px 35px;
     width: 90%;
+    height: auto;
     text-align: center;
     background: linear-gradient(135deg, #020024, #097530, #097930, #00d4ff);
     color: linear-gradient(135deg, #097930, #00d4ff);
     max-width: 470px;
-    margin: 100px auto 0;
+    margin: 30px auto 0;
 }
 .search{
     width: 100%;
@@ -75,4 +76,10 @@ body{
 .hum, .wind {
     font-size: 15px;
     margin-top: -1rem;
+}
+.error{
+    margin-top: 1rem;
+    font-size: 20px;
+    color: rgb(150, 25, 25); 
+    display: none;
 }
